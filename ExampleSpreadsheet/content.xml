@@ -28,7 +28,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:grddl="http://www.w3.org/2003/g/data-view#"
-    xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" office:version="1.3">
+    xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" office:version="1.2">
     <office:scripts/>
     <office:font-face-decls>
         <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="system" style:font-pitch="variable"/>
@@ -1235,6 +1235,17 @@
                     </table:table-cell>
                     <table:table-cell table:formula="of:=[.A19]+[.B19]" office:value-type="float" office:value="144">
                         <text:p>144</text:p>
+                    </table:table-cell>
+                </table:table-row>
+                <table:table-row table:style-name="ro3">
+                    <table:table-cell office:value-type="float" office:value="28">
+                        <text:p>28</text:p>
+                    </table:table-cell>
+                    <table:table-cell office:value-type="float" office:value="118">
+                        <text:p>118</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:formula="of:=[.A20]+[.B20]" office:value-type="float" office:value="146">
+                        <text:p>146</text:p>
                     </table:table-cell>
                 </table:table-row>
             </table:table>

@@ -24,7 +24,7 @@
     xmlns:dom="http://www.w3.org/2001/xml-events"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:grddl="http://www.w3.org/2003/g/data-view#"
-    xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" office:version="1.3">
+    xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" office:version="1.2">
     <office:font-face-decls>
         <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="system" style:font-pitch="variable"/>
         <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
@@ -56,139 +56,134 @@
         </number:number-style>
         <number:number-style style:name="N112P0" style:volatile="true">
             <number:text>¥</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N112">
             <number:text>¥-</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N112P0"/>
         </number:number-style>
         <number:number-style style:name="N113P0" style:volatile="true">
             <number:text>¥</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N113">
             <style:text-properties fo:color="#ff0000"/>
             <number:text>¥-</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N113P0"/>
         </number:number-style>
         <number:number-style style:name="N114P0" style:volatile="true">
             <number:text>¥</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N114">
             <number:text>¥-</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N114P0"/>
         </number:number-style>
         <number:number-style style:name="N115P0" style:volatile="true">
             <number:text>¥</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N115">
             <style:text-properties fo:color="#ff0000"/>
             <number:text>¥-</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N115P0"/>
         </number:number-style>
         <number:number-style style:name="N116P0" style:volatile="true">
             <number:text>$</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N116">
             <number:text>($</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text>)</number:text>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N116P0"/>
         </number:number-style>
         <number:number-style style:name="N117P0" style:volatile="true">
             <number:text>$</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N117">
             <style:text-properties fo:color="#ff0000"/>
             <number:text>($</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text>)</number:text>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N117P0"/>
         </number:number-style>
         <number:number-style style:name="N118P0" style:volatile="true">
             <number:text>$</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N118">
             <number:text>($</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <number:text>)</number:text>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N118P0"/>
         </number:number-style>
         <number:number-style style:name="N119P0" style:volatile="true">
             <number:text>$</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N119">
             <style:text-properties fo:color="#ff0000"/>
             <number:text>($</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <number:text>)</number:text>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N119P0"/>
         </number:number-style>
         <number:number-style style:name="N120P0" style:volatile="true">
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N120">
             <number:text>-</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N120P0"/>
         </number:number-style>
         <number:number-style style:name="N121P0" style:volatile="true">
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N121">
             <style:text-properties fo:color="#ff0000"/>
             <number:text>-</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N121P0"/>
         </number:number-style>
         <number:number-style style:name="N122P0" style:volatile="true">
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N122">
             <number:text>-</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N122P0"/>
         </number:number-style>
         <number:number-style style:name="N123P0" style:volatile="true">
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N123">
             <style:text-properties fo:color="#ff0000"/>
             <number:text>-</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N123P0"/>
         </number:number-style>
         <number:number-style style:name="N124P0" style:volatile="true">
             <number:text></number:text>
-            <number:fill-character></number:fill-character>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N124P1" style:volatile="true">
-            <number:text></number:text>
-            <number:fill-character></number:fill-character>
-            <number:text>-</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:text> -</number:text>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N124P2" style:volatile="true">
-            <number:text></number:text>
-            <number:fill-character></number:fill-character>
-            <number:text>- </number:text>
+            <number:text> - </number:text>
         </number:number-style>
         <number:text-style style:name="N124">
             <number:text></number:text>
@@ -200,21 +195,16 @@
         </number:text-style>
         <number:number-style style:name="N125P0" style:volatile="true">
             <number:text> ¥</number:text>
-            <number:fill-character></number:fill-character>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N125P1" style:volatile="true">
-            <number:text> ¥</number:text>
-            <number:fill-character></number:fill-character>
-            <number:text>-</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:text> ¥-</number:text>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N125P2" style:volatile="true">
-            <number:text> ¥</number:text>
-            <number:fill-character></number:fill-character>
-            <number:text>- </number:text>
+            <number:text> ¥- </number:text>
         </number:number-style>
         <number:text-style style:name="N125">
             <number:text></number:text>
@@ -226,22 +216,17 @@
         </number:text-style>
         <number:number-style style:name="N126P0" style:volatile="true">
             <number:text></number:text>
-            <number:fill-character></number:fill-character>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N126P1" style:volatile="true">
-            <number:text></number:text>
-            <number:fill-character></number:fill-character>
-            <number:text>-</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:text> -</number:text>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N126P2" style:volatile="true">
-            <number:text></number:text>
-            <number:fill-character></number:fill-character>
-            <number:text>-</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="2"/>
+            <number:text> -</number:text>
+            <number:number number:decimal-places="0" number:min-integer-digits="2"/>
             <number:text></number:text>
         </number:number-style>
         <number:text-style style:name="N126">
@@ -254,22 +239,17 @@
         </number:text-style>
         <number:number-style style:name="N127P0" style:volatile="true">
             <number:text> ¥</number:text>
-            <number:fill-character></number:fill-character>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N127P1" style:volatile="true">
-            <number:text> ¥</number:text>
-            <number:fill-character></number:fill-character>
-            <number:text>-</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:text> ¥-</number:text>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N127P2" style:volatile="true">
-            <number:text> ¥</number:text>
-            <number:fill-character></number:fill-character>
-            <number:text>-</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="2"/>
+            <number:text> ¥-</number:text>
+            <number:number number:decimal-places="0" number:min-integer-digits="2"/>
             <number:text></number:text>
         </number:number-style>
         <number:text-style style:name="N127">
@@ -298,36 +278,36 @@
             <number:seconds number:style="long" number:decimal-places="1"/>
         </number:time-style>
         <number:number-style style:name="N131">
-            <number:scientific-number number:decimal-places="1" number:min-decimal-places="1" number:min-integer-digits="1" number:min-exponent-digits="1" number:exponent-interval="3" number:forced-exponent-sign="true"/>
+            <number:scientific-number number:decimal-places="1" number:min-integer-digits="1" number:min-exponent-digits="1"/>
         </number:number-style>
         <number:number-style style:name="N132P0" style:volatile="true">
             <number:text>$</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text></number:text>
         </number:number-style>
         <number:number-style style:name="N132P1" style:volatile="true">
             <number:text>($</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text>)</number:text>
         </number:number-style>
         <number:number-style style:name="N132">
             <number:text>$</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1"/>
             <number:text></number:text>
             <style:map style:condition="value()&gt;0" style:apply-style-name="N132P0"/>
             <style:map style:condition="value()&lt;0" style:apply-style-name="N132P1"/>
         </number:number-style>
         <number:percentage-style style:name="N133P0" style:volatile="true">
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text>% </number:text>
         </number:percentage-style>
         <number:percentage-style style:name="N133P1" style:volatile="true">
             <number:text>(</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <number:text>%)</number:text>
         </number:percentage-style>
         <number:percentage-style style:name="N133">
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1"/>
             <number:text>% </number:text>
             <style:map style:condition="value()&gt;0" style:apply-style-name="N133P0"/>
             <style:map style:condition="value()&lt;0" style:apply-style-name="N133P1"/>
@@ -438,40 +418,40 @@
         </number:date-style>
         <number:number-style style:name="N10126P0" style:volatile="true" number:language="ja" number:country="JP">
             <number:text>¥</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N10126" number:language="ja" number:country="JP">
             <number:text>-¥</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N10126P0"/>
         </number:number-style>
         <number:number-style style:name="N10127P0" style:volatile="true" number:language="ja" number:country="JP">
             <number:text>¥</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N10127" number:language="ja" number:country="JP">
             <style:text-properties fo:color="#ff0000"/>
             <number:text>-¥</number:text>
-            <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N10127P0"/>
         </number:number-style>
         <number:number-style style:name="N10128P0" style:volatile="true" number:language="ja" number:country="JP">
             <number:text>¥</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N10128" number:language="ja" number:country="JP">
             <number:text>-¥</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N10128P0"/>
         </number:number-style>
         <number:number-style style:name="N10129P0" style:volatile="true" number:language="ja" number:country="JP">
             <number:text>¥</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
         </number:number-style>
         <number:number-style style:name="N10129" number:language="ja" number:country="JP">
             <style:text-properties fo:color="#ff0000"/>
             <number:text>-¥</number:text>
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
             <style:map style:condition="value()&gt;=0" style:apply-style-name="N10129P0"/>
         </number:number-style>
         <style:style style:name="Default" style:family="table-cell">
@@ -551,7 +531,7 @@
     </office:styles>
     <office:automatic-styles>
         <number:number-style style:name="N2">
-            <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1"/>
+            <number:number number:decimal-places="2" number:min-integer-digits="1"/>
         </number:number-style>
         <style:page-layout style:name="Mpm1">
             <style:page-layout-properties style:first-page-number="continue" style:writing-mode="lr-tb"/>
@@ -593,13 +573,11 @@
                 </text:p>
             </style:header>
             <style:header-left style:display="false"/>
-            <style:header-first style:display="false"/>
             <style:footer>
                 <text:p>ページ                    <text:page-number>1</text:page-number>
                 </text:p>
             </style:footer>
             <style:footer-left style:display="false"/>
-            <style:footer-first style:display="false"/>
         </style:master-page>
         <style:master-page style:name="Report" style:page-layout-name="Mpm2">
             <style:header>
@@ -617,7 +595,6 @@
                 </style:region-right>
             </style:header>
             <style:header-left style:display="false"/>
-            <style:header-first style:display="false"/>
             <style:footer>
                 <text:p>ページ                    <text:page-number>1</text:page-number>
                     <text:s/>
@@ -625,15 +602,12 @@
                 </text:p>
             </style:footer>
             <style:footer-left style:display="false"/>
-            <style:footer-first style:display="false"/>
         </style:master-page>
         <style:master-page style:name="PageStyle_5f_Data" style:display-name="PageStyle_Data" style:page-layout-name="Mpm3">
             <style:header style:display="false"/>
             <style:header-left style:display="false"/>
-            <style:header-first style:display="false"/>
             <style:footer style:display="false"/>
             <style:footer-left style:display="false"/>
-            <style:footer-first style:display="false"/>
         </style:master-page>
     </office:master-styles>
 </office:document-styles>
