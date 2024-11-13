@@ -51,6 +51,10 @@
         <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
             <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
         </style:style>
+        <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default">
+            <style:table-cell-properties fo:background-color="#55308d" fo:wrap-option="wrap"/>
+            <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Serif" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="Segoe UI" style:font-size-asian="10pt" style:language-asian="ja" style:country-asian="JP" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-name-complex="Tahoma" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="bold" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+        </style:style>
         <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default">
             <style:table-cell-properties fo:wrap-option="wrap"/>
             <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Serif" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="Segoe UI" style:font-size-asian="10pt" style:language-asian="ja" style:country-asian="JP" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Tahoma" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
@@ -62,22 +66,22 @@
             <table:table table:name="Sheet1" table:style-name="ta1">
                 <table:table-column table:style-name="co1" table:number-columns-repeated="6" table:default-cell-style-name="ce1"/>
                 <table:table-row table:style-name="ro1">
-                    <table:table-cell office:value-type="string">
+                    <table:table-cell table:style-name="ce3" office:value-type="string">
                         <text:p>Student Name</text:p>
                     </table:table-cell>
-                    <table:table-cell office:value-type="string">
+                    <table:table-cell table:style-name="ce3" office:value-type="string">
                         <text:p>Gender</text:p>
                     </table:table-cell>
-                    <table:table-cell office:value-type="string">
+                    <table:table-cell table:style-name="ce3" office:value-type="string">
                         <text:p>Class Level</text:p>
                     </table:table-cell>
-                    <table:table-cell office:value-type="string">
+                    <table:table-cell table:style-name="ce3" office:value-type="string">
                         <text:p>Home State</text:p>
                     </table:table-cell>
-                    <table:table-cell office:value-type="string">
+                    <table:table-cell table:style-name="ce3" office:value-type="string">
                         <text:p>Major</text:p>
                     </table:table-cell>
-                    <table:table-cell office:value-type="string">
+                    <table:table-cell table:style-name="ce3" office:value-type="string">
                         <text:p>Extracurricular Activity</text:p>
                     </table:table-cell>
                 </table:table-row>
