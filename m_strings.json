@@ -1,0 +1,46 @@
+[
+  [
+    "@m_string",
+    ""
+  ],
+  [
+    "key",
+    "value"
+  ],
+  [
+    "news_tag",
+    "2023-05-04T15:00:00.000Z"
+  ],
+  [
+    "news_text",
+    "<BODY>\n<LF=1>\n<CENTER>Welcome to gdxsv !<BR>\n<LF=1>\n<CENTER>ソロモンがトレーニング用になりました<BR>\n<CENTER>１～４人で参加できます<BR>\n<LF=1>\n<CENTER>Solomon is now for training<BR>\n<CENTER>1-4 people can participate<BR>\n<LF=1>\n<END>"
+  ],
+  [
+    "news_text_old4",
+    "<BODY>\n<LF=1>\n<CENTER>Welcome to gdxsv !<BR>\n<LF=1>\n<CENTER>ベルファストがP2Pに設定されました<BR>\r\n<CENTER>最新版flycastで利用できます<BR>\n<LF=1>\n<CENTER>Belfast(AA) is now P2P lobby<BR>\n<CENTER>Lets use latest flycast<BR>\n<LF=1>\n<END>"
+  ],
+  [
+    "news_text_old3",
+    "<BODY>\n<LF=1>\n<CENTER>Welcome to gdxsv !<BR>\n<LF=1>\n<CENTER>新パッチ導入<BR>\n<CENTER>最新版flycastを使用してください<BR>\n<LF=1>\n<CENTER>New Patch Installed<BR>\n<CENTER>Please use latest flycast<BR>\n<LF=1>\n<END>"
+  ],
+  [
+    "news_text_stable",
+    "\"<BODY>\n<LF=1>\n<CENTER>Welcome to gdxsv !<BR>\n<LF=1>\n<CENTER>接続情報/在線人數:<BR>\n<CENTER>https://www.gdxsv.net/#/status<BR>\n<LF=1>\n<END>\""
+  ],
+  [
+    "news_text_old2",
+    "<BODY>\n<CENTER>gdxsv へ ようこそ !<BR>\n<LF=1>\n<CENTER>Welcome to gdxsv !<BR>\n<LF=1>\n<LF=1>\n<CENTER>Stop DISCONNECTING<BR>\n<CENTER>or we will BAN you permanently<BR>\n<LF=1>\n<CENTER>再亂甘蚊線<BR>\n<CENTER>唔好迫我地出手永久BAN里<BR>\n<END>"
+  ],
+  [
+    "news_text_old",
+    "<BODY>\n<CENTER>ああああああ<BR>\n<LEFT>○日程: 12/11 (金) 23:00-26:00 (JST)<BR>\n<LEFT>○場所: アバオアクー内部,外部,宙域<BR>\n<LEFT>○制限: コスト200以下 弾無限<BR>\n<LEFT>アバオアクー内部はTeamShuffle<BR>\n<LEFT>アナウンスはDiscordで行います。<BR>\n<LF=1>\n<CENTER>【EVENT】AAAAAAAAA<BR>\n<LEFT>○When: 12/11 (Fri) 22:00-25:00 (HKT)<BR>\n<LEFT>○Where: アバオアクー内部,外部,宙域<BR>\n<LEFT>○Rule: ≦200 MS Only, Infinite Ammo<BR>\n<LEFT>アバオアクー内部 is for TeamShuffle<BR>\n<LEFT>See gdxsv Discord for the details.<BR>\n<END>"
+  ],
+  [
+    "dev_lobby",
+    "DEVELOPMENT LOBBY\nFor testing new features\n新機能のテストに使います"
+  ],
+  [
+    "arena_reminder",
+    "Cultural difference reminder:\n@HK: 推槍/笠頭/雙面/坦克/拉打 都OK\n@JP: グフ/ゴッグ連続選択OK\nLet's Embrace & Celebrate our Differences"
+  ]
+]
